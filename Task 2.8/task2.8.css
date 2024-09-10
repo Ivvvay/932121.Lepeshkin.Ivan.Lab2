@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    margin: 5px;
+}
+
+nav{
+    background-color: aqua;
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.menu{
+    background-color: bisque;
+    width: 100%;
+    padding: 15px 0 15px 40px;
+    position: absolute;
+}
+
+.content {
+    background-color: darkgray;
+    margin-left: 200px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: limegreen;
+}

@@ -1,0 +1,54 @@
+*{ 
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+div{
+    width: 150px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.bluevioletBlock{
+    position: static;
+    margin-top: 5px;
+    background-color: blueviolet;
+}
+
+.redBlock{
+    position: relative;
+    background-color: darkred;
+}
+
+.peruBlock{
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    background-color: peru;
+}
+
+.indianredBlock{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-color: indianred;
+}
+
+.indigoBlock{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    background-color: indigo;
+}
+
+.greenBlock{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+}

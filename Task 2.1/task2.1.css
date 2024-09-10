@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+    height: 60px;
+    background-color:#c6c6c6;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    float: left;
+    flex: 1 0 200px;
+    padding: 0 0 5px 5px;
+    background-color:rgb(181, 230, 133);
+
+}
+
+span{
+    font-style: italic;
+    color: red;
+}
+
+article{
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+}
+
+a{
+    color: yellow;
+}

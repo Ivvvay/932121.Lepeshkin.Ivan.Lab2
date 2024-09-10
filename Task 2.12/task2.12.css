@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    width: 500px;
+    height: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.menu{
+    padding: 15px 0 15px 40px;
+}
+
+.content {
+    background-color: darkgray;
+    margin: 0 5px; 
+}
+
+@media screen and (max-width: 800px) {
+    main{
+        flex-direction: column;
+    }
+    nav{
+        width: 150px;
+        height: 100px;
+    }
+    .content{
+        margin-left: 0;
+        margin-right: 100px;
+        width: auto;
+    }
+    
+}
